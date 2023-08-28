@@ -1,0 +1,609 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Landing-Page-Design-Daliware
+	Template URI: http://www.almamun chawdhuri.com
+	Description: photo related template
+	Author: Ab. AlMamun
+	Author URI: http://www.Abalmamun.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Header Area
+	2. feature area
+	3. smart-jackpots Area
+	4. meeting-6 Area
+	5. smart-jacpots2 Area
+	6. lets-see Area
+	6. testimomial Area
+	6. payment Area
+	6. premiume Area
+	6. questions Area
+	7. Footer Area
+
+-----------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-family: "DM Sans";
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+.container {
+  width: 94%;
+  margin: auto;
+  max-width: 1190px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #171717;
+  color: #FAFAF9;
+}
+
+.header .up-header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 49px 0px;
+}
+.header .up-header .logo-header {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header .up-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .up-header nav .fa {
+  display: none;
+}
+.header .up-header nav .nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 10px;
+  position: relative;
+  cursor: pointer;
+}
+.header .up-header nav .nav-links ul li a {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header .up-header nav .nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #f44336;
+  display: block;
+  margin: auto;
+  margin-top: 6px;
+  transition: 0.5s ease-in-out !important;
+}
+.header .up-header nav .nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.hero-area .main-area {
+  width: 86%;
+  padding-left: 1.8%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.hero-area .main-area .left-hero {
+  flex-basis: 70%;
+}
+.hero-area .main-area .left-hero h1 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 131.5px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.hero-area .main-area .left-hero .btn-video-area {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 17%;
+}
+.hero-area .main-area .left-hero .btn-video-area .btn-area {
+  flex-basis: 65%;
+}
+.hero-area .main-area .left-hero .btn-video-area .btn-area p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 12.7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin: 46px 0px 50px 0px;
+}
+.hero-area .main-area .left-hero .btn-video-area .btn-area .btn-hero {
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: #E6533C;
+  padding: 24px 25px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  transition: 0.5s ease-in-out !important;
+}
+.hero-area .main-area .left-hero .btn-video-area .btn-area .btn-hero:hover {
+  background-image: linear-gradient(#ee7866, #c43924);
+}
+.hero-area .main-area .left-hero .btn-video-area .video-area {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #303030;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 9999;
+  flex-basis: 23%;
+  margin-top: 2%;
+}
+.hero-area .main-area .left-hero .btn-video-area .video-area .video-img {
+  width: 18%;
+}
+.hero-area .main-area .left-hero .btn-video-area .video-area .video-img img {
+  width: 100%;
+}
+.hero-area .main-area .left-hero .btn-video-area .video-area .video-text h5 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.hero-area .main-area .left-hero .btn-video-area .video-area .video-text p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.hero-area .main-area .left-hero .as-area h6 {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 5%;
+}
+.hero-area .main-area .left-hero .as-area .as-img {
+  width: 72%;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.hero-area .main-area .left-hero .as-area .as-img img {
+  width: 100%;
+}
+.hero-area .main-area .po {
+  position: absolute;
+  right: 2.2%;
+  top: 7%;
+}
+.hero-area .main-area .po img {
+  width: 100%;
+}
+.hero-area .main-area .right-hero .up-right {
+  background-color: #EF8964;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  position: absolute;
+  right: -2%;
+  top: 6%;
+}
+.hero-area .main-area .right-hero .up-right .running {
+  position: absolute;
+  background-color: #EFA082;
+  border-radius: 50%;
+  padding: 2px 2px 0px 2px;
+  text-align: center;
+}
+.hero-area .main-area .right-hero .up-right p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding-top: 22px;
+}
+.hero-area .main-area .right-hero .up-right p b {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+.hero-area .main-area .right-hero .down-right {
+  background-color: #7A29DC;
+  text-align: center;
+  border-radius: 12px;
+  padding: 16px 23px;
+  position: absolute;
+  right: -9.95%;
+  top: 70.981%;
+}
+.hero-area .main-area .right-hero .down-right h3 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.hero-area .main-area .right-hero .down-right p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.not-sure {
+  padding-top: 200px;
+  position: relative;
+  margin-bottom: 250px;
+}
+.not-sure .start-area {
+  width: 86%;
+  padding-left: 1.8%;
+  margin: auto;
+}
+.not-sure .start-area h2 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  margin-bottom: 24px;
+}
+.not-sure .start-area p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.not-sure .start-area .row {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+  position: absolute;
+}
+.not-sure .start-area .row .same-design {
+  background: #323443;
+  border-radius: 12px;
+  padding: 42px 31.6px;
+}
+.not-sure .start-area .row .same-design h3 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.not-sure .start-area .row .same-design .arrow-area {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.not-sure .start-area .row .same-design .arrow-area p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.not-sure .start-area .row .col-1-2 {
+  background-color: #232532;
+}
+.not-sure .start-area .row .col-1-4 {
+  background-color: #4F5261;
+}
+
+.home-area {
+  padding-top: 150px;
+}
+.home-area .row {
+  width: 92%;
+  padding-left: 8%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-area .row .col-1-2 {
+  flex-basis: 48%;
+}
+.home-area .row .col-1-2 h2 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  margin-bottom: 32px;
+}
+.home-area .row .col-1-2 p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+}
+.home-area .row .col-1-2 span .btn2 {
+  color: #0070C9;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  padding: 8px;
+  padding-left: 0px;
+}
+.home-area .row .col-1-2 img {
+  width: 100%;
+}
+.home-area .row .show {
+  position: relative;
+}
+.home-area .row .show .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(#242323, rgba(48, 191, 223, 0.5));
+  opacity: 0;
+  transition: 1s;
+}
+.home-area .row .show .service {
+  width: 90%;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+.home-area .row .show .service h2 {
+  font-size: 40px;
+  text-align: center;
+  color: coral;
+}
+.home-area .row .show:hover .overlay {
+  opacity: 0.6;
+}
+.home-area .row .show:hover .service {
+  bottom: 28%;
+  opacity: 2;
+}
+
+.get-low-cost .row {
+  padding-left: 0%;
+}
+.get-low-cost .row .kom {
+  flex-basis: 46%;
+}
+.get-low-cost .row .besi {
+  flex-basis: 48%;
+}
+
+.membership-area {
+  padding: 100px 0px;
+}
+.membership-area .members {
+  width: 85%;
+  padding-left: 1.3%;
+  margin: auto;
+}
+.membership-area .members h1 {
+  color: #FAFAF9;
+  font-family: "Inter";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0.83px;
+}
+.membership-area .members hr {
+  opacity: 0.2;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+.membership-area .members .join-wo {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.membership-area .members .join-wo .join-area {
+  flex-basis: 35%;
+  background: #232532;
+  padding: 7% 6.34%;
+}
+.membership-area .members .join-wo .join-area .join-btn {
+  padding-top: 100px;
+  text-align: left;
+}
+.membership-area .members .join-wo .join-area .join-btn .btn2 {
+  color: #0070C9;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  padding: 8px;
+  padding-left: 0px;
+}
+.membership-area .members .join-wo .wo-area {
+  flex-basis: 35%;
+  background: #323443;
+  padding: 7% 6.34%;
+}
+.membership-area .members .join-wo .wo-area .wo-plus-btn {
+  padding-top: 30px;
+  text-align: left;
+}
+.membership-area .members .join-wo .wo-area .wo-plus-btn .btn-wo {
+  background-color: #0070C9;
+  color: #FAFAF9;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 4px 14px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out !important;
+}
+.membership-area .members .join-wo .wo-area .wo-plus-btn .btn-wo:hover {
+  background-image: linear-gradient(#2d8cda, #0663af);
+}
+.membership-area .members .join-wo h2 {
+  color: #FAFAF9;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+.membership-area .members .join-wo p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.membership-area .members .join-wo ul {
+  display: inline-block;
+  width: 85%;
+}
+.membership-area .members .join-wo ul li {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.back-to-top {
+  padding-bottom: 30px;
+}
+.back-to-top .position-area {
+  position: relative;
+}
+.back-to-top .position-area .back-btn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #FAFAF9;
+  box-shadow: 0px 4px 9px 0px rgba(255, 255, 255, 0.25);
+  position: absolute;
+  right: 0.8%;
+  bottom: 0px;
+}
+.back-to-top .position-area .back-btn .btn3 {
+  color: #303030;
+  font-family: "Poppins";
+  padding: 8px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+.back-to-top .position-area .back-btn .fa-angle-up {
+  color: #2E3A59;
+  font-size: 26px;
+  padding-right: 7px;
+}/*# sourceMappingURL=style.css.map */

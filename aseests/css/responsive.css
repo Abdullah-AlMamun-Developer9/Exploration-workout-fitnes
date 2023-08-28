@@ -1,0 +1,624 @@
+
+/* 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media screen and (max-width: 1250px) {
+    
+    .hero-area .main-area .left-hero h1 {
+        font-size: 110px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 11px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area .btn-hero {
+        font-size: 16px;
+        padding: 20px 20px;
+    }
+    .hero-area .main-area .right-hero .down-right {
+        padding: 12px 14px;
+        right: -7.6%;
+        top: 70.981%;
+    }
+    .hero-area .main-area .right-hero .down-right h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .hero-area .main-area .right-hero .down-right p {
+        font-size: 12px;
+    }
+    .not-sure {
+        margin-bottom: 70px;
+    }
+    .not-sure .start-area {
+        width: 94%;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 24%;
+        padding: 40px 15px;
+    }
+    .not-sure .start-area .row .same-design .arrow-area p {
+        font-size: 13px;
+    }
+    .not-sure .start-area .row {
+        position: inherit;
+        justify-content: space-between;
+    }
+    .not-sure .start-area .row .same-design .arrow-area {
+        justify-content: space-between;
+    }
+    .home-area {
+        padding-top: 100px;
+    }
+
+
+    .membership-area .members {
+        width: 92%;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1164px) {
+
+    .hero-area .main-area .left-hero h1 {
+        font-size: 99px;
+    }
+    .hero-area .main-area .po {
+        width: 40%;
+        right: 6%;
+        top: 10%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 10.5px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area {
+        width: 93%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area {
+        flex-basis: 25%;
+        margin-top: 0;
+    }
+
+    .hero-area .main-area .right-hero .down-right {
+        right: -5.6%;
+        top: 68.981%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area .video-img {
+        width: 16%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area .video-text h5 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area .video-text p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .not-sure .start-area {
+        width: 86%;
+    }
+    .not-sure .start-area .row {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 27%;
+        padding: 40px 30px;
+    }
+    .not-sure .start-area .row .same-design h3 {
+        font-size: 18px;
+    }
+    .not-sure .start-area .row .same-design .arrow-area p {
+        font-size: 15px;
+    }
+    .home-area .row {
+        width: 94%;
+        padding-left: 0%;
+    }
+    .home-area .row .col-1-2 h2 {
+        font-size: 32px;
+    }
+    .home-area .row .col-1-2 p {
+        font-size: 12px;
+    }
+
+    .membership-area .members .join-wo .flex-same {
+        flex-basis: 37%;
+        padding: 5% 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 1094px) {
+
+    .hero-area .main-area .left-hero h1 {
+        font-size: 97px;
+        line-height: 132PX;
+    }
+    .hero-area .main-area .po {
+        width: 40%;
+        right: 3%;
+        top: 8%;
+    }
+    .hero-area .main-area .right-hero .up-right {
+        padding: 5px 15px;
+        right: 0%;
+        top: 8%;
+    }
+    .hero-area .main-area .right-hero .up-right p b {
+        font-size: 30px;
+        line-height: 35px;
+        margin-right: 11px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area {
+        width: 100%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 10px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area .video-text h5 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area {
+        flex-basis: 22%;
+    }
+
+    .hero-area .main-area .left-hero .btn-video-area .video-area .video-text p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area .btn-hero {
+        font-size: 14px;
+        padding: 15px 15px;
+    }
+    .hero-area .main-area .right-hero .down-right h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hero-area .main-area .right-hero .down-right p {
+        font-size: 11px;
+    }
+    .hero-area .main-area .right-hero .down-right {
+        right: -9%;
+        top: 64.6%;
+        padding: 8px;
+    }
+
+    .not-sure .start-area .row .same-design {
+        flex-basis: 30%;
+    }
+
+    .membership-area .members .join-wo p {
+        font-size: 14.3px;
+    }
+
+    .membership-area .members .join-wo ul li {
+        font-size: 14.8px;
+    }
+}
+
+
+
+@media screen and (max-width: 978px) {
+
+    .hero-area .main-area .po {
+        right: -10%;
+        top: 10%;
+    }
+    .hero-area .main-area .right-hero .up-right {
+        padding: 5px 20px;
+        right: -10%;
+        top: 5%;
+    }
+    .hero-area .main-area .right-hero .up-right p b {
+        font-size: 25px;
+        line-height: 30px;
+        margin-right: 0px;
+    }
+    .hero-area .main-area .right-hero .up-right p {
+        font-size: 15px;
+        padding-top: 18px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area {
+        flex-basis: 80%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 11px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .video-area {
+        display: none;
+    }
+    .hero-area .main-area .right-hero .down-right h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .hero-area .main-area .right-hero .down-right p {
+        font-size: 10px;
+    }
+    .hero-area .main-area .right-hero .down-right {
+        top: 80%;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 38%;
+    }
+    .home-area .row {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .home-area .row .col-1-2 {
+        flex-basis: 65%;
+        margin-bottom: 5%;
+    }
+    .home-area .row .col-1-2 h2 {
+        font-size: 34.5px;
+    }
+    .home-area .row .col-1-2 p {
+      font-size: 12.2px;
+    }
+    .home-area .row .show .service h2 {
+        font-size: 30px;
+    }
+
+    .membership-area .members .join-wo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .membership-area .members .join-wo .join-area {
+        margin-bottom: 10%;
+    }
+    .membership-area .members .join-wo .flex-same {
+        flex-basis: 50%;
+        padding: 5% 6%;
+    }
+
+    .membership-area .members .join-wo p {
+        font-size: 15.5px;
+    }
+    .membership-area .members .join-wo ul li {
+        font-size: 16px;
+    }
+    .membership-area .members .join-wo .join-area .join-btn {
+        padding-top: 70px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    
+    .header .up-header nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links {
+        background-color: #171717;
+        height: 100vh;
+        width: 164px;
+        position: fixed;
+        top: 0;
+        right: -170px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    
+    .nav-links ul {
+        padding: 23px;
+    }
+
+
+
+    .hero-area .main-area .po {
+        right: -8%;
+    }
+    .hero-area .main-area .left-hero h1 {
+        font-size: 80px;
+        line-height: 110PX;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 10px;
+    }
+    .not-sure .start-area h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 36%;
+    }
+    .not-sure .start-area p {
+        font-size: 12px;
+    }
+    .not-sure .start-area .row .same-design h3 {
+        font-size: 16px;
+    }
+    .not-sure .start-area .row .same-design .arrow-area p {
+        font-size: 12px;
+    }
+
+    .home-area .row .col-1-2 {
+        flex-basis: 77%;
+    }
+    .membership-area .members .join-wo .flex-same {
+        flex-basis: 60%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 660px) {
+
+    .hero-area .main-area {
+        width: 90%;
+        padding-left: 0;
+    }
+    .hero-area .main-area .po {
+        width: 45%;
+    }
+    .hero-area .main-area .left-hero h1 {
+        font-size: 62px;
+        line-height: 95px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area {
+        flex-basis: 90%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 8.3px;
+    }
+    .hero-area .main-area .left-hero .as-area .as-img {
+        width: 100%;
+        gap: 15px;
+    }
+    .hero-area .main-area .right-hero .up-right {
+        padding: 2px 15px;
+        right: -5%;
+        top: 2%;
+    }
+    .hero-area .main-area .right-hero .up-right p {
+        font-size: 12px;
+    }
+    .hero-area .main-area .right-hero .up-right p b {
+        line-height: 22px;
+    }
+    .hero-area .main-area .right-hero .down-right h3 {
+        font-size: 20px;
+    }
+    .hero-area .main-area .right-hero .down-right p {
+        font-size: 9px;
+    }
+    .hero-area .main-area .right-hero .down-right {
+        padding: 6px 4px;
+        right: -5%;
+        top: 90%;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 60%;
+    }
+    .not-sure .start-area .row .same-design h3 {
+        font-size: 18px;
+    }
+    .not-sure .start-area .row .same-design .arrow-area p {
+        font-size: 15px;
+    }
+
+    .home-area .row .col-1-2 {
+        flex-basis: 100%;
+    }
+    .membership-area .members .join-wo .flex-same {
+        flex-basis: 75%;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .hero-area .main-area .left-hero h1 {
+        font-size: 55px;
+        line-height: 90px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 7.3px;
+    }
+    .hero-area .main-area .right-hero .down-right {
+        top: 80%;
+    }
+
+    .not-sure .start-area h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .not-sure .start-area p {
+        font-size: 14px;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 70%;
+    }
+    .home-area .row .col-1-2 h2 {
+        font-size: 29px;
+    }
+    .home-area .row .col-1-2 p {
+        font-size: 10.3px;
+        line-height: 20px;
+    }
+    .home-area .row .show .service h2 {
+        font-size: 29px;
+    }
+    .membership-area .members .join-wo .flex-same {
+        flex-basis: 90%;
+        padding: 10% 8%;
+    }
+    .membership-area .members .flex-same p {
+        font-size: 14.2px;
+    }
+    .membership-area .members .flex-same ul li {
+        font-size: 14.8px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 430px) {
+
+    .hero-area .main-area .left-hero h1 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .hero-area .main-area .po {
+        top: 25%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area {
+        flex-basis: 83%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 12px;
+    }
+    .hero-area .main-area .right-hero .up-right p b {
+        line-height: 15px;
+    }
+    .hero-area .main-area .right-hero .up-right .running {
+        left: 2px;
+    }
+    .hero-area .main-area .right-hero .up-right {
+        padding: 2px 10px;
+        top: 15%;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area .btn-hero {
+        font-size: 12px;
+        padding: 12px 10px;
+    }
+    .hero-area .main-area .right-hero .down-right h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .hero-area .main-area .right-hero .down-right p {
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .not-sure .start-area h2 {
+        font-size: 19px;
+    }
+    .not-sure .start-area p {
+        font-size: 12px;
+    }
+    .not-sure .start-area .row .same-design {
+        flex-basis: 90%;
+    }
+    .home-area .row .col-1-2 h2 {
+        font-size: 24.5px;
+        line-height: 35px;
+    }
+    .home-area .row .col-1-2 p {
+        font-size: 8.6px;
+    }
+    .home-area .row .show .service h2 {
+        font-size: 25px;
+    }
+    .membership-area .members .flex-same p {
+        font-size: 11.9px;
+        line-height: 20px;
+    }
+    .membership-area .members .flex-same ul li {
+        font-size: 12.3px;
+        line-height: 20px;
+    }
+    .back-to-top .position-area .back-btn .btn3 {
+        padding-right: 5px;
+        font-size: 13px;
+    }
+    .back-to-top .position-area .back-btn .fa-angle-up {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 364px) {
+
+    .hero-area .main-area .left-hero h1 {
+        font-size: 45px;
+    }
+    .hero-area .main-area .left-hero .btn-video-area .btn-area p {
+        font-size: 10.5px;
+    }
+    .hero-area .main-area .po {
+        width: 50%;
+        top: 25%;
+    }
+    .hero-area .main-area .right-hero .up-right .running {
+        padding: 0px;
+        background: none;
+    }
+    .hero-area .main-area .right-hero .up-right p b {
+        font-size: 25px;
+    }
+    .hero-area .main-area .right-hero .up-right {
+        padding: 0px 6px;
+        top: 18%;
+        right: -8%;
+    }
+    .not-sure .start-area .row .same-design h3 {
+        font-size: 16px;
+    }
+    .not-sure .start-area .row .same-design .arrow-area p {
+        font-size: 12px;
+    }
+    .home-area .row .col-1-2 h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .home-area .row .col-1-2 p {
+        font-size: 7.5px;
+        line-height: 17px;
+    }
+    .home-area .row .show .service h2 {
+        font-size: 22px;
+    }
+    .membership-area .members .flex-same h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .membership-area .members .flex-same p {
+        font-size: 10.5px;
+    }
+    .membership-area .members .flex-same ul li {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
